@@ -89,7 +89,7 @@ public class Web {
                 return method;
             }
         }
-        throw new IllegalStateException("Unanable to find a method named " + s);
+        throw new IllegalStateException("Unable to find a method named " + s);
     }
 
     public static void message(String s) {
@@ -233,7 +233,7 @@ public class Web {
             System.out.println("################################################################");
             System.out.println("#  ERROR ");
             System.out.println("################################################################");
-            System.out.println("An error occured: " + e.getMessage());
+            System.out.println("An error occurred: " + e.getMessage());
             e.printStackTrace();
 
             StringWriter sw = new StringWriter();

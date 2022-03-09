@@ -26,8 +26,8 @@ public class MethodGenerator implements AutoCloseable {
         return localStorageMap.get(name);
     }
 
-    public MethodGenerator(MethodVisitor delgate) {
-        this.delegate = delgate;
+    public MethodGenerator(MethodVisitor delegate) {
+        this.delegate = delegate;
     }
 
     @Override

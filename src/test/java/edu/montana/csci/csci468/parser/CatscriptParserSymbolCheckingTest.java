@@ -55,7 +55,7 @@ public class CatscriptParserSymbolCheckingTest extends CatscriptTestBase {
     }
 
     @Test
-    void ifStatementBranchesDoNotConflic() {
+    void ifStatementBranchesDoNotConflict() {
         Statement statement = parseStatement("if(true){ var x = 10 } else { var x = true }\n");
         assertNotNull(statement);
     }
